@@ -68,5 +68,11 @@ Cuttable and driable
 *Note*: the files in the *2D_output_labels* directories only contain the pixel points with the affordances and its semantic labels. When you run data.py, in the dataloader we incorporate a function to obtain the Gaussian heatmaps in an efficient way. This avoids to load the *N* masks.
 
 ## Baselines
+We face to a multi-label segmentation problem, where each pixel can correspond to multiple affordances. Precisely, this is the pure conception of the affordances concept, that represents *all* the possible actions. We implemented different baselines, which are extensions of popular single-label semantic segmentation datasets.
+1. U-Net
+2. Deep-Lab v3
+3. Mask-RCNN
+4. Img2heatmap
 
-We implemented different baselines, which are extensions of popular semantic segmentation datasets.
+## Our model
+
