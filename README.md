@@ -31,7 +31,7 @@ On one hand, we use the narration annotations of the Epic Kitchens 100 to obtain
 In a second stage, using Structure from Motion algorithms (COLMAP), we obtain the camera pose the global localization of the interaction in the 3D space. Running this for all the frames in the kitchen where an interaction occur, we obtain a historical distribution of all the taken actions in that kitchen. In the following image we show in blue the different camera poses, in grey the Colmap keypoints and the different locations where the interactions occur.
 
 <p align="center" width="100%">
-    <img width="45%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/Screenshot%20from%202022-12-13%2010-31-56.png"> 
+    <img width="47%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/Screenshot%20from%202022-12-14%2016-28-24.png"> 
     <img width="45%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/Screenshot%20from%202022-12-13%2010-31-56.png"> 
 </p>
 
