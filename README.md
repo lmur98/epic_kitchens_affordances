@@ -6,9 +6,11 @@ The EPIC-Affordance dataset is a new dataset build on the Epic Kitchens 100 and 
 
 You can download all the data in this [link](https://unizares-my.sharepoint.com/:f:/g/personal/lmur_unizar_es/Eh6XvqAezQNMi37G_nEJu0sBUPux3UOPO-LzWmDLQ3QkGQ?e=qeddVK)
 
--Images: we already provide the images extracted from the videos of EPIC-100 Kitchens. This avoids download the approximate 700 GB of that dense dataset.
--Annotations in 3D: in a pickle format, we provide a dictionary with the Colmap data (camera pose, camera intrinsics and keypoints), the distribution of the interacting objects, the annotation of the interaction and the distribution of the neutral objects. We encourage to the research community to use this data to develop new tasks like goal path planning.
--Affordance annotations in the 2D: we already run the project_from_3D_to_2D.py for all the sequences in order to provide a pickle dictionary with the location of the interaction points for the 32 different afforded-actions.
+-**Images**: we already provide the images extracted from the videos of EPIC-100 Kitchens. This avoids download the approximate 700 GB of that dense dataset.
+
+-**Annotations in 3D**: in a pickle format, we provide a dictionary with the Colmap data (camera pose, camera intrinsics and keypoints), the distribution of the interacting objects, the annotation of the interaction and the distribution of the neutral objects. We encourage to the research community to use this data to develop new tasks like goal path planning.
+
+-**Affordance annotations in the 2D**: we already run the project_from_3D_to_2D.py for all the sequences in order to provide a pickle dictionary with the location of the interaction points for the 32 different afforded-actions.
 
 *Note:* Some sequences are P04_EPIC_55 and P04_EPIC_100, while others are just P01. Since scenes in EP-100 and EP-55 were recorded with different cameras, we make this distintion in order to avoid problems with the camera pose registration. If the sequence is called just P01, it means that all its frames correspond to EP-55 or EP-100.
 
