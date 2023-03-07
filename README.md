@@ -51,8 +51,8 @@ Finally, for a better visualization we obtain a Gaussian heatmaps for each of th
 <p align="center" width="100%">
     <img width="24%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_02_frame_0000016034%20take.png"> 
     <img width="24%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_02_frame_0000033785%20insert.png"> 
-    <img width="45%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_02_frame_0000065888%20cut.png"> 
-    <img width="45%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_04_frame_0000006974%20dry.png"> 
+    <img width="24%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_02_frame_0000065888%20cut.png"> 
+    <img width="24%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_04_frame_0000006974%20dry.png"> 
 </p>
 
 *Note*: the files in the *2D_output_labels* directories only contain the pixel points with the affordances and its semantic labels. When you run data.py, in the dataloader we incorporate a function to obtain the Gaussian heatmaps in an efficient way. This avoids to load the *N* masks.
