@@ -17,14 +17,14 @@ On one hand, we use the narration annotations of the Epic Kitchens 100 to obtain
 
 
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P01_01_frame_0000003682.jpg"> 
-    <img width="33%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P01_01_frame_0000019463.jpg"> 
-    <img width="33%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P01_01_frame_0000049183.jpg"> 
+    <img width="32%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P01_01_frame_0000003682.jpg"> 
+    <img width="32%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P01_01_frame_0000019463.jpg"> 
+    <img width="32%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P01_01_frame_0000049183.jpg"> 
 </p>
 <p align="center" width="100%">
-    <img width="45%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P01_01_frame_0000049183.jpg"> 
-    <img width="45%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_02_frame_0000000946.jpg"> 
-    <img width="45%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_02_frame_0000005376.jpg"> 
+    <img width="32%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P01_01_frame_0000049183.jpg"> 
+    <img width="32%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_02_frame_0000000946.jpg"> 
+    <img width="32%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/P04_02_frame_0000005376.jpg"> 
 </p>
 
 ### 2. Leverage all to the 3D
