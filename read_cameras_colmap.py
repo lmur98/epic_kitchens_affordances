@@ -112,7 +112,7 @@ K_int[0, 2] = cx
 K_int[1, 2] = cy
 K_inv = np.linalg.inv(K_int)
 
-img_ids, img_names, t_poses, R_poses = read_images_txt('/home/lmur/Desktop/EPIC_KITCHENS_100_SEQUENCES/P02_101_part_1/sparse/images.txt')
+img_ids, img_names, t_poses, R_poses = read_images_txt('.../P02_101_part_1/sparse/images.txt')
 plot_cameras_colmap(img_names, R_poses, t_poses)
 
 """
