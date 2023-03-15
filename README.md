@@ -9,7 +9,7 @@ We provide a example sequence on the PO3_EPIC_100_Example. We will release the f
 
 -**Annotations in 3D**: in a pickle format, we provide a dictionary with the Colmap data (camera pose, camera intrinsics and keypoints), the distribution of the interacting objects, the annotation of the interaction and the distribution of the neutral objects. We encourage to the research community to use this data to develop new tasks like goal path planning.
 
--**Affordance annotations in the 2D**: we already run the project_from_3D_to_2D.py for all the sequences in order to provide a pickle dictionary with the location of the interaction points for the 32 different afforded-actions.
+-**Affordance annotations in the 2D**: we already run the project_from_3D_to_2D.py for all the sequences in order to provide a pickle dictionary with the location of the interaction points for the afforded-actions.
 
 -**VISORs masks**: the semantic mask wit the active objets, which we consider dynamic.
 
