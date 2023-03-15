@@ -137,6 +137,6 @@ class Ego_Metric_training_dataset():
         masks = self.get_masks_from_pickle(data_2d)
         return img, masks
 
-data = Ego_Metric_training_dataset('/home/lmur/Desktop/EGO_METRIC_Dataset_v3/Kitchens')
+data = Ego_Metric_training_dataset('...')
 img, masks = data[15]
 #data.visualize(img, masks, 'cut')
