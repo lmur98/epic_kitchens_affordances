@@ -120,10 +120,10 @@ class EP100_and_VISOR_annotations():
                             obj_bbox = self.get_bbox_from_segment(entity_2['segments'])
                             output['neutral_objects'].append({'object': entity_2_name, 'object_bbox': obj_bbox})
                             cv2.rectangle(self.img_show, (obj_bbox[0], obj_bbox[1]), (obj_bbox[2], obj_bbox[3]), color=(0, 255, 255), thickness=2)
-            cv2.imwrite('/home/lmur/Documents/Monodepth/ego_metric/affordance_hotspot3.jpg', self.img_show)
-        sampled_mask = os.path.join('/home/lmur/Desktop/EGO_METRIC_DATASET_V2/dense_masks', self.sequence, img_name + '.png')
+            cv2.imwrite('.../affordance_hotspot3.jpg', self.img_show)
+        sampled_mask = os.path.join('.../dense_masks', self.sequence, img_name + '.png')
         sampled_mask = cv2.imread(sampled_mask)
-        cv2.imwrite('/home/lmur/Documents/Monodepth/ego_metric/active_object_masks3.jpg', sampled_mask)    
+        cv2.imwrite('.../active_object_masks3.jpg', sampled_mask)    
         return output
 
 
