@@ -15,7 +15,7 @@ class Inference:
         self.height = 480
         self.width = 854
         self.frame_idxs = [0]
-        self.data_path = '/home/lmur/Desktop/EGO_METRIC_Dataset_v3/Kitchens'
+        self.data_path = '...'
         self.kitchen = 'P03_EPIC_100'
         
         self.device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
