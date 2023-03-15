@@ -14,9 +14,9 @@ from utils.valid_interactions import valid_interactions, colormap_interactions
 class Reproject_data():
     def __init__(self):
         #Initialize directories
-        self.verbs_EP100_csv = '/home/lmur/Desktop/VISORS_Kitchen_Dataset/EPIC_100_verb_classes.csv'
+        self.verbs_EP100_csv = '.../EPIC_100_verb_classes.csv'
         self.verbs_EP100_csv = pd.read_csv(self.verbs_EP100_csv)
-        self.sequence_dir = '/home/lmur/Desktop/EGO_METRIC_Dataset_v3/Kitchens/P04_EPIC_55'
+        self.sequence_dir = '.../P04_EPIC_55'
         self.labels_dir = os.path.join(self.sequence_dir, '3D_output')
         self.colmap_poses = os.path.join(self.sequence_dir, 'colmap')
         self.imgs_dir = os.path.join(self.sequence_dir, 'selected_plus_guided_rgb')
