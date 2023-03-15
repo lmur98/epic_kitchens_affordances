@@ -31,7 +31,7 @@ class VideoSequentialDataset(data.Dataset):
         self.height = height
         self.width = width
         self.colors = self.get_colormap()
-        self.VISOR_path = '/home/lmur/Desktop/VISORS_Kitchen_Dataset'
+        self.VISOR_path = '...'
         self.EP100_and_VISOR_reader = EP100_and_VISOR_annotations(self.VISOR_path, self.rgb, kitchen)
         self.frame_idxs = frame_idxs
         
