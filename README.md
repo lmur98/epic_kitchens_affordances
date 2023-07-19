@@ -1,6 +1,6 @@
 # Epic-Aff Dataset
 
-This is the dataset introduced on the ICCV 2023 paper **Multi-label affordance mapping from egocentric vision**, by Lorenzo Mur-Labadia, Ruben Martinez-Cantin and Josechu Guerrero Campo. Please, do not hesitate to ask any question on the following mail *lmur@unizar.es* :✉️:
+This is the dataset introduced on the ICCV 2023 paper **Multi-label affordance mapping from egocentric vision**, by Lorenzo Mur-Labadia, Ruben Martinez-Cantin and Josechu Guerrero Campo. Please, do not hesitate to ask any question on the following mail *lmur@unizar.es* ✉️
 
 ## Dataset creation: automatic annotations
 
@@ -8,15 +8,15 @@ The EPIC-Aff dataset is a new dataset build on the Epic Kitchens 100 and Epic Ki
 
 The total size of the dataset is 15 GB, which we have divided in the different data type. We also provide a example sequence on the PO3_EPIC_100_Example. The full dataset can be downloaded [here](https://zenodo.org/record/8162678)
 
--**Images** :📸: : we already provide the images extracted from the videos of EPIC-100 Kitchens in 480x854 of resolution. This avoids download the approximate 700 GB of that dense dataset. [link](https://zenodo.org/record/8162678/files/EPIC_Aff_images.zip?download=1)
+-**Images** 📸 : we already provide the images extracted from the videos of EPIC-100 Kitchens in 480x854 of resolution. This avoids download the approximate 700 GB of that dense dataset. [link](https://zenodo.org/record/8162678/files/EPIC_Aff_images.zip?download=1)
 
--**Annotations in 3D** :📝: : in a pickle format, we provide a dictionary with the Colmap data (camera pose, camera intrinsics and keypoints), the distribution of the interacting objects, the annotation of the interaction and the distribution of the neutral objects. We encourage to the research community to use this data to develop new tasks like goal path planning. [link](https://zenodo.org/record/8162678/files/EPIC_Aff_3D_output.zip?download=1)
+-**Annotations in 3D** 📝 : in a pickle format, we provide a dictionary with the Colmap data (camera pose, camera intrinsics and keypoints), the distribution of the interacting objects, the annotation of the interaction and the distribution of the neutral objects. We encourage to the research community to use this data to develop new tasks like goal path planning. [link](https://zenodo.org/record/8162678/files/EPIC_Aff_3D_output.zip?download=1)
 
--**Affordance annotations in the 2D** :📝:: we already run the project_from_3D_to_2D.py for all the sequences in order to provide a pickle dictionary with the location of the interaction points for the afforded-actions. We provide two versions of the dataset:
+-**Affordance annotations in the 2D** 📝: we already run the project_from_3D_to_2D.py for all the sequences in order to provide a pickle dictionary with the location of the interaction points for the afforded-actions. We provide two versions of the dataset:
     - Easy EPIC-Aff (20 classes): [link](https://zenodo.org/record/8162678/files/EPIC_Aff_20_classes_2d_output_labels.zip?download=1)
     - Complex EPIC-Aff (50 classes): [link](https://zenodo.org/record/8162678/files/EPIC_Aff_50_classes_2d_output_labels.zip?download=1)
 
--**VISORs masks** :🎭:: the semantic mask wit the active objets, which we consider dynamic. In order to obtain the dynamic masks for COLMAP, we select the dynamic and static objects. [link](https://zenodo.org/record/8162678/files/EPIC_Aff_masks_from_VISOR.zip?download=1)
+-**VISORs masks** 🎭: the semantic mask wit the active objets, which we consider dynamic. In order to obtain the dynamic masks for COLMAP, we select the dynamic and static objects. [link](https://zenodo.org/record/8162678/files/EPIC_Aff_masks_from_VISOR.zip?download=1)
 
 We detail the procedure for extracting multi-label affordance regions.
 
@@ -37,7 +37,7 @@ On one hand, we use the narration annotations of the Epic Kitchens 100 to obtain
 
 ### 2. Leverage all to the 3D
 
-In a second stage, using Structure from Motion algorithms (COLMAP), we get the camera pose and the global localization of the interaction in the 3D space. This creates a historical distribution of all the taken actions in that environment, cross-linking alng different episodes. In the following images, we show in blue the different camera poses, in grey the Colmap keypoints and the different locations where the interactions occur. For each specific physical kitchen, we accumulated all the EPIC videos where the agent interacted. Note that for some sequences, the EPIC-50 and EPIC-100 was different, while in other it was the same environment.
+In a second stage, using Structure from Motion algorithms (COLMAP), we get the camera pose and the global localization of the interaction in the 3D space. This creates a historical distribution of all the taken actions in that environment, cross-linking along different episodes. In the following images, we show in blue the different camera poses, in grey the Colmap keypoints and the different locations where the interactions occur. For each specific physical kitchen, we accumulated all the EPIC videos where the agent interacted. Note that for some sequences, the EPIC-50 and EPIC-100 was different, while in other it was the same environment.
 
 <p align="center" width="100%">
     <img width="47%" src="https://github.com/lmur98/epic_kitchens_affordances/blob/main/imgs/Screenshot%20from%202022-12-14%2016-28-24.png"> 
