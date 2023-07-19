@@ -1,6 +1,7 @@
 # Epic-Aff Dataset
 
-This is the dataset introduced on the ICCV 2023 paper **Multi-label affordance mapping from egocentric vision**, by Lorenzo Mur-Labadia, Ruben Martinez-Cantin and Josechu Guerrero Campo. Please, do not hesitate to ask any question on the following mail *lmur@unizar.es* ✉️
+This is the dataset introduced on the ICCV 2023 conference paper **Multi-label affordance mapping from egocentric vision** 🎉🎉, by Lorenzo Mur-Labadia, Ruben Martinez-Cantin and Josechu Guerrero Campo from the University of Zaragoza. 
+Please, do not hesitate to ask any question on the following mail *lmur@unizar.es* ✉️
 
 ## Dataset creation: automatic annotations
 
